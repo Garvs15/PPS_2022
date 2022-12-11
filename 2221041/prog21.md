@@ -11,5 +11,5 @@ return 0;
 } 
 
 **Output:- Please enter a character: Garv
-The character you entered is G
+The character you entered is G**
 ```
