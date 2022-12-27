@@ -1,5 +1,5 @@
 ## Write a program to display ASCII code for the character.
-```
+```c
 #include<stdio.h>
 int main()
 {
