@@ -1,4 +1,4 @@
-## Write a program to show the Factorial of a given number.
+## Write a program to show the Factorial of a given number using recursion.
 ```c
 #include<stdio.h>
 // Program to calculate the factorial of a number.
