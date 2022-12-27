@@ -23,7 +23,7 @@ for(i = 0; i < NUM - 1; i++)
  T = range[i];
  range[i] = range[j];
  range[j] = T;
-  }
+   }
 }
 }
 first = 0;
