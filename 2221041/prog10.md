@@ -1,4 +1,4 @@
-## Write a program to demostate continue
+## Write a program to demostrate continue statement.
 ```c
 #include<stdio.h>
 int main()
