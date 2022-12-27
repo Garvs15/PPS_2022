@@ -1,5 +1,5 @@
 ## Program 4 : Write a program to display operators in C.
-```
+```c
 #include<stdio.h>
 int main()
 {
