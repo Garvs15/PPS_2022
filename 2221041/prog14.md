@@ -1,4 +1,4 @@
-## Program 14: Write a program to use goto statement
+## Program 14: Write a program to use goto statement.
 
 ```c
 #include <stdio.h>
