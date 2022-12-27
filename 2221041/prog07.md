@@ -1,5 +1,5 @@
 ## Write a program to demonstrate while loop.
-```
+```c
 #include<stdio.h>
 
 int main(){
