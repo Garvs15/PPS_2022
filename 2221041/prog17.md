@@ -1,4 +1,4 @@
-## Demonstration of fibonacci series upto n terms.
+## Demonstration of fibonacci series upto n terms without using recursion.
 ```c
 #include<stdio.h>
 int main()
