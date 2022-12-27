@@ -1,5 +1,5 @@
 ## Write a program to demonstrate the for loop
-```
+```c
 #include<stdio.h>
 // Program to demonstrate for loop 
 int main() {
