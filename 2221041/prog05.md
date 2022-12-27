@@ -1,5 +1,5 @@
 ## Program: Write a program to show use of if - else statement.
-```
+```c
 #include<stdio.h>
 int main()
 {
