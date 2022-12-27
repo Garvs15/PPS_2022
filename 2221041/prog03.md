@@ -1,5 +1,5 @@
 ## Program 3: Write a program to get input from user
-```
+```c
 #include<stdio.h>
 int main()
 {
