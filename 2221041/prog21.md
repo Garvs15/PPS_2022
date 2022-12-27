@@ -1,4 +1,4 @@
-## Tutorial Program #1
+## Tutorial Program #1.
 ```c
 #include<stdio.h>
 int main()
