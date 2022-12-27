@@ -1,5 +1,5 @@
 ## Write a program to illustrate do-while loop.
-```
+```c
 #include<stdio.h>
 int main()
 {
