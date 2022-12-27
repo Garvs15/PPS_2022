@@ -1,5 +1,5 @@
 ## Program 2 : Write a program to display addition of two numbers.
-```
+```c
 #include<stdio.h>
 int main()
 {
