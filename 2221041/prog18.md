@@ -1,4 +1,4 @@
-## Demonstration of a program using a Bubble sort.
+## Demonstration of a program using a Bubble sort
 ```c
 #include<stdio.h>
 int array[8] = {25,57,48,37,12,92,86,33};
