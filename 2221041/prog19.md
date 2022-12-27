@@ -22,7 +22,7 @@ printf("The search value %d's position is %d", value, pos);
 return 0;
 }
 
-**Output:- Please enter the values 32
+## Output:- Please enter the values 32
 11
 22
 33
