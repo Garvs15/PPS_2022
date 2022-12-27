@@ -1,45 +1,55 @@
-## Program 33: Write a program to check if a number is palidromic
+## Program 33: Write a program to check if a given word is palindromic or not.
 ```c 
+#include <ctype.h>
 #include <stdio.h>
+#include <string.h>
 
-//Program to check if given number is palindrome
+//Program to check if given word is a palindrome
 
-int reverse(int n){
-    int rev=0;
-    while(n>0){
-        rev = rev*10 + n%10;
-        n/=10;
+void toLowerCase(char *word){
+    for(int i=0; i<strlen(word); i++){
+        word[i] = tolower(word[i]);
     }
-    return rev;
 }
 
-int isPalindrome(int n){
-    if(reverse(n) == n) return 1;
+int isPalindrome(char *word){
+    char rev[strlen(word)];
+    
+    for(int i=strlen(word);i>=0;i--)rev[strlen(word)-1-i] = word[i];
+
+    printf("Reverse of %s -> %s\n",word,rev);
+    if(strcmp(word,rev) == 0) return 1;
     return 0;
 }
 
 int main(){
-    int n;
-    printf("Enter a number to check -> ");
-    scanf("%d",&n);
+    char word[25];
 
-    if(isPalindrome(n))printf("%d is a palidromic number\n",n);
-    else printf("%d is not a palidromic number\n",n);
+    printf("Enter a word to check -> ");
+    scanf("%s",word);
+    toLowerCase(word);
 
+    if(isPalindrome(word))printf("%s is a palindrome\n",word);
+    else printf("%s is not a palindrome\n",word);
+    
     return 0;
 }
 
 ```
 ### Output:
 ```
-Enter a number to check -> 121
-121 is a palidromic number
+Enter a word to check -> madam
+Reverse of madam -> madam
+madam is a palindrome
 ```
 ```
-Enter a number to check -> 125521
-125521 is a palidromic number
+Enter a word to check -> RAceCAr
+Reverse of racecar -> racecar
+racecar is a palindrome
 ```
 ```
-Enter a number to check -> 125621
-125621 is not a palidromic number
+Enter a word to check -> Risk
+Reverse of risk = kisr
+risk is not a palindrome
 ```
+
