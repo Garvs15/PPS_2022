@@ -1,5 +1,5 @@
 ## Write a program to demonstrate a comma operator.
-```
+```c
 #include<stdio.h>
 int main()
 {
