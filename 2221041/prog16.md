@@ -1,4 +1,4 @@
-## Write a program to show the use of Bitwise AND operator.
+## Write a program to show the use of Bitwise AND operator
 ```c
 #include<stdio.h>
 int main()
